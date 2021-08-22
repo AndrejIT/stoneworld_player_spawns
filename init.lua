@@ -239,7 +239,7 @@ end
 -- Special start bed
 stoneworld_player_spawns.register_bed("stoneworld_player_spawns:leaves_bed", {
 	description = "Temporary Bed",
-	inventory_image = {"default_leaves.png", "default_leaves.png", "default_leaves.png"},
+	inventory_image = "default_leaves.png",
 	wield_image = "default_leaves.png",
 	tiles = {
 		bottom = {
